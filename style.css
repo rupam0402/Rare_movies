@@ -217,7 +217,7 @@ p{
     }
     .movies-container {
         max-width: 968px;
-        margin-left: 4%;
+        margin-left: 2%;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(180px, auto));
         gap: 1rem;
