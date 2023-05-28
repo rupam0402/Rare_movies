@@ -216,9 +216,9 @@ p{
         margin: 0;
     }
     .movies-container {
-        max-width: 968px;
+        max-width: 390px;
         margin-left: 2%;
-        display: grid;
+        display: inline-grid;
         grid-template-columns: repeat(auto-fit, minmax(180px, auto));
         gap: 1rem;
         margin-top: 2rem;
