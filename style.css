@@ -187,7 +187,8 @@ p{
         min-height: 40vh;
     }
     .box .box-img img{
-        width:100;
+        width:100%;
+        height: 65%;
         margin-left: 2%;
     }
     .box h3{
