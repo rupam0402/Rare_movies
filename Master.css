@@ -120,9 +120,9 @@
 @media(max-width:700px){
     .feature-img{
         width: 280px;
-        left: 69px;
-        top: 60%;
+        margin-left: 10%;
         position: initial;
+
     }
     .content{
         margin-top: 0;

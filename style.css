@@ -180,19 +180,21 @@ p{
     }
     .row{
         flex-direction: column;
+        margin-left: 4%;
+        margin-right: 4% ;
     }
     .home{
         min-height: 40vh;
     }
     .box .box-img img{
-        width:50%;
-        margin-left: 25%;
+        width:100;
+        margin-left: 0%;
     }
     .box h3{
         text-align: center;
     }
     .box span{
-        margin-left: 30%;
+        margin-left: 15%;
     }
     .movies-container2 .box .box-img img
     {
@@ -212,6 +214,16 @@ p{
         width: 90%;
         left: 6%;
         margin: 0;
+    }
+    .movies-container {
+        max-width: 968px;
+        margin-left: 4%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+        gap: 1rem;
+        margin-top: 2rem;
+        color: #ffcb7f;
+        margin-right: 4%
     }
 }
 
